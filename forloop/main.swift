@@ -8,5 +8,16 @@
 
 import Foundation
 
-print("Hello, World!")
+
+for i in 0...100
+{
+    print("i:\(i)\t", separator: "", terminator: "")
+}
+print("\n\n")
+var name = "bhadresh goswami"
+
+for ch in name.characters{
+    print("Char is \(ch)")
+}
+
 
