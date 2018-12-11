@@ -20,4 +20,15 @@ for ch in name.characters{
     print("Char is \(ch)")
 }
 
+print("\n\n")
+
+for i in 1...10
+{
+    for j in 1...i
+    {
+        print("\(i) ", separator: "", terminator: "")
+    }
+    print("\n")
+}
+
 
